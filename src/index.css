@@ -11,3 +11,199 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.client-header {
+  height: 60px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: rgb(57, 62, 69)
+}
+
+.hospital-logo-name {
+  color: white;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  font-weight: bold;
+  height: 100%;
+}
+
+.hospital-logo-line {
+  display: inline-flex;
+  width: 2px;
+  position: fixed;
+  left: 80px;
+  height: 100%;
+  background-color: white;
+  margin-left: 20px;
+}
+
+.header-item-termins {
+  position: fixed;
+  left: 150px;
+  top: 18px;
+  color: white;
+}
+
+.auth-footer {
+  height: 80px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(57, 62, 69)
+}
+
+.header-item-termins:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.header-item-reservations {
+  position: fixed;
+  left: 240px;
+  top: 18px;
+  color: white;
+}
+
+.header-item-reservations:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.special-for {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.home-body {
+  overflow-y: scroll;
+  position: fixed;
+  padding: 20px;
+  left: 0;
+  right: 0;
+  bottom: 85px;
+  top: 40px;
+  opacity: 0.8;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.user-name {
+  color: white;
+  position: fixed;
+  right: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  top: 15px;
+}
+
+.client-termin {
+  width: 550px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  border-width: 5px;
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: table;
+  border: 1px solid rgb(0, 0, 0);  
+}
+
+.client-time-termin {
+  font-weight: 400;
+  font-size: 30px;
+  width: 250px;
+  padding-left: 25px;
+  padding-bottom: 25px;
+}
+
+.client-time-termin-new {
+  font-weight: 400;
+  font-size: 18px;
+  width: 190px;
+  padding-left: 25px;
+}
+
+.client-time-termin-new-md {
+  font-weight: 400;
+  font-size: 18px;
+  width: 190px;
+  padding-top: 15px;
+  padding-left: 25px;
+}
+
+.cancel-button {
+  margin-top: 30px;
+  text-align: center;
+  opacity: 0.9;
+}
+
+.doctor-res {
+  padding-bottom: 50px;
+}
+
+.firstName {
+  margin-right: 0%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4px;
+  padding-left: 25px;
+}
+
+.termins-bloc {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.termin {
+  width: 900px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  border-radius: 15px;
+  border-width: 5px;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.termin-content {
+  display: table;
+}
+
+.termin-row {
+  display: table-cell;
+  padding-top: 10px;
+  vertical-align: top;
+  padding-left: 20px;
+}
+
+.termin-row-sum {
+  display: table-cell;
+  padding-top: 10px;
+  vertical-align: top;
+  padding-left: 120px;
+}
+
+.termin-row-dic {
+  display: table-cell;
+  padding-top: 10px;
+  vertical-align: top;
+  padding-left: 120px;
+}
+
+.termin-row-button {
+  display: table-cell;
+  padding-top: 10px;
+  padding-left: 150px;
+  vertical-align: top;
+}

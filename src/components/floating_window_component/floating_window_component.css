@@ -1,0 +1,22 @@
+
+.floatingWindowComponent {
+  font-size: 1em;
+}
+
+.floatingWindowComponent:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.modal-w {
+  opacity: 0.3;
+}
+
+.textform {
+  width: 100%;
+}
+
+.card-add-header {
+  width: 100%;
+  padding-bottom: 20px;
+}
