@@ -1,1 +1,1 @@
-# watify
+# Hack Prague project
